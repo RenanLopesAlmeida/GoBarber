@@ -8,11 +8,11 @@ import {
   JoinColumn,
 } from 'typeorm';
 
-import User from './User';
+import User from '../../users/entities/User';
 
 /**
  * One to One (Um usuário tem 1 agendamento, no máximo)
- * One to many (Um usuário pode ter vários agendamento)
+ * One to many (Um usuário pode ter vários agendamentos)
  * Many to many (ex: um prestador de serviço pode participar do mesmo serviço que um outro prestador de serviço)
  */
 
