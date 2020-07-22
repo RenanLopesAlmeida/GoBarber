@@ -18,7 +18,7 @@ Some features on backend:
 
 * Created with NodeJS and Typescript
 * Migrations
-* id maded with uuid generator
+* id created with uuid generator
 * Application created with some Design Patterns, like Dependency Injection, Repository, Services
 * JWT Authentication
 * Middleware
