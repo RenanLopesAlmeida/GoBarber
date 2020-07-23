@@ -26,13 +26,13 @@
     "@typescript-eslint/no-unused-vars": ["error", {
       "argsIgnorePattern": "_"
     }],
-     "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "ts": "never"
-      }
-    ]
+    "import/extensions": [
+    "error",
+    "ignorePackages",
+    {
+      "ts": "never"
+    }
+  ]
   },
   "settings": {
     "import/resolver": {
