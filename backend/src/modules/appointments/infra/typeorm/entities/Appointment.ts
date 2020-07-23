@@ -8,7 +8,7 @@ import {
   JoinColumn,
 } from 'typeorm';
 
-import User from '../../users/entities/User';
+import User from '@modules/users/infra/typeorm/entities/User';
 
 /**
  * One to One (Um usuário tem 1 agendamento, no máximo)
